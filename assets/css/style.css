@@ -186,8 +186,18 @@ aside h3 {
 }
 .correlated a {
     color: #03A6CA;
+    font-weight: 600;
 }
 aside article h5 {
     padding-block: 0;
+}
+.category {
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.date {
+    text-align: end;
+    font-size: 0.8rem;
 }
 /* FOOTER */
