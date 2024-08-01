@@ -10,6 +10,9 @@ body {
     margin-inline: auto;
     font-family: "Poppins", sans-serif;
 }
+p {
+    font-size: 1.1rem;
+}
 /* HEADER */
 header {
     height: 310px;
@@ -47,10 +50,69 @@ header nav li {
 }
 
 /* MAIN */
+main {
+    background-color: white;
+    box-shadow: 1px 5px 8px 3px rgba(0,0,0,0.4);
+    padding: 45px 15px;    
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+main article h1{
+font-size: 2rem;
+font-weight: 500;
+line-height: 3rem;
+}
 
+main article h5 {
+line-height: 1.5rem;
+color: #A2A0A4;
+padding-block: 20px;
+}
+.p {
+    padding: 20px 0;
+}
+
+.purple {
+    color: purple;
+}
+
+.list ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.list ul li, .list ol li {
+    line-height: 1.4rem;
+}
+
+.bg_code {
+    background-color: #E8E8DE;
+    border: 1px solid #A8A7A7;
+    border-radius: 5px;
+}
+
+.p_top {
+    padding: 0 0 20px 0;
+}
+
+.list ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
 /* TABELLE */
+
 
 /* FORM */
 
