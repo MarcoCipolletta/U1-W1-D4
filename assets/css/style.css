@@ -125,7 +125,7 @@ table {
     padding-block: 20px;
 }
 .u_table p {
-    line-height: 1.3rem;
+    line-height: 1.4rem;
 }
 .u_table p a {
     color: #019CCB;
@@ -201,3 +201,18 @@ aside article h5 {
     font-size: 0.8rem;
 }
 /* FOOTER */
+footer {
+    background-image: linear-gradient(0deg, rgba(44,51,56,1) 0%, rgba(0,85,102,1) 100%);
+    box-shadow: 1px 5px 8px 3px rgba(0,0,0,0.4);
+    color: #EBE8E0;
+    text-align: center;
+    padding: 25px 15px;
+    margin-block: 20px;
+}
+footer p {
+    font-size: 0.9rem;
+}
+footer a{
+    font-weight: 600;
+    color: #FA1AD7;
+}
