@@ -112,6 +112,13 @@ padding-block: 20px;
     unicode-bidi: isolate;
 }
 /* TABELLE */
+table caption {
+    font-style: italic;
+    font-weight: 700;
+}
+table {
+    border: 1px solid black;
+}
 
 
 /* FORM */
