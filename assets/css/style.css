@@ -9,6 +9,7 @@ body {
     width: 360px;
     margin-inline: auto;
     font-family: "Poppins", sans-serif;
+    color: rgb(45, 45, 45);
 }
 p {
     font-size: 1.1rem;
@@ -111,6 +112,9 @@ padding-block: 20px;
     padding-inline-start: 40px;
     unicode-bidi: isolate;
 }
+.t_table {
+    line-height: 1.5rem;
+}
 /* TABELLE */
 table caption {
     font-style: italic;
@@ -158,7 +162,8 @@ iframe {
 .novita h3 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 1.7rem;
     padding-block: 20px;
     color: rgb(45, 45, 45);
 }
