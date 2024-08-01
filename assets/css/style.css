@@ -120,8 +120,20 @@ table {
     border: 1px solid black;
 }
 
+/* UNDER TABLE */
+.u_table p {
+    line-height: 1.3rem;
+}
+.u_table p a {
+    color: #019CCB;
+}
 
+iframe {
+    border-radius: 30px;
+    width: 100%;
+}
 /* FORM */
+
 
 /* ELEMENTI NELL' ASIDE */
 
