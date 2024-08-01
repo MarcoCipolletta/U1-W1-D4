@@ -117,7 +117,22 @@ table caption {
     font-weight: 700;
 }
 table {
-    border: 1px solid black;
+    border-bottom: 1px solid #3466CD;
+    width: 100%;
+}
+table thead tr th {
+    padding: 1rem 25px;
+    background-color: #3466CD;
+    color: white;
+    vertical-align: middle;
+}
+table tbody tr:nth-child(2n) {
+    background-color: rgb(222 223 224 / 0.5);
+    border-top: 1px solid rgb(222 223 224 );
+    border-bottom: 1px solid rgb(222 223 224 );
+}
+table tbody tr td {
+    padding-block: 0.5rem;
 }
 
 /* UNDER TABLE */
